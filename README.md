@@ -395,4 +395,3 @@ $$
 where $\operatorname{segments}_\beta(D)$ is a segmentation strategy of the data $D$ into segments (e.g., sentences paragraphs) and $\operatorname{similarity}_\beta$ is a similarity measure between the input $x$ and the segment $y$, e.g., cosine similarity or Euclidean distance between embeddings or some tf-idf measure, like BM25.
 
 We can use the inferred $\beta$ to find the most relevant segments in the training data to the input, and then use the AR model to generate continuations of the input based on these segments.
-
