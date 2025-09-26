@@ -1,3 +1,9 @@
 wikipedia
 wikipedia_data/enwiki-chunk1.xml.bz2
 wikipedia_data/*.xml.bz2
+.coverage
+*.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/
+coverage_html/
