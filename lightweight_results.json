@@ -1,0 +1,706 @@
+{
+  "timestamp": "2025-09-25 19:01:34",
+  "llm_type": "MockLLM",
+  "experiments": {
+    "weight_sensitivity": [
+      {
+        "llm_weight": 0.99,
+        "ngram_weight": 0.010000000000000009,
+        "predictions": {
+          "The capital of": [
+            [
+              "the",
+              0.21521987207834928
+            ],
+            [
+              "of",
+              0.14348074164356672
+            ],
+            [
+              "and",
+              0.11478260869565216
+            ]
+          ],
+          "Machine learning": [
+            [
+              "the",
+              0.2152270906253953
+            ],
+            [
+              "of",
+              0.14348796019061275
+            ],
+            [
+              "and",
+              0.11478260869565216
+            ]
+          ],
+          "Deep learning": [
+            [
+              "the",
+              0.2152270906253953
+            ],
+            [
+              "of",
+              0.14348796019061275
+            ],
+            [
+              "and",
+              0.11478260869565216
+            ]
+          ]
+        }
+      },
+      {
+        "llm_weight": 0.95,
+        "ngram_weight": 0.050000000000000044,
+        "predictions": {
+          "The capital of": [
+            [
+              "the",
+              0.20653414300044218
+            ],
+            [
+              "of",
+              0.1376935632902973
+            ],
+            [
+              "and",
+              0.11014492753623187
+            ]
+          ],
+          "Machine learning": [
+            [
+              "the",
+              0.20657023573567238
+            ],
+            [
+              "of",
+              0.1377296560255275
+            ],
+            [
+              "and",
+              0.11014492753623187
+            ]
+          ],
+          "Deep learning": [
+            [
+              "the",
+              0.20657023573567238
+            ],
+            [
+              "of",
+              0.1377296560255275
+            ],
+            [
+              "and",
+              0.11014492753623187
+            ]
+          ]
+        }
+      },
+      {
+        "llm_weight": 0.9,
+        "ngram_weight": 0.09999999999999998,
+        "predictions": {
+          "The capital of": [
+            [
+              "the",
+              0.19567698165305836
+            ],
+            [
+              "of",
+              0.13045959034871055
+            ],
+            [
+              "and",
+              0.10434782608695652
+            ]
+          ],
+          "Machine learning": [
+            [
+              "the",
+              0.19574916712351872
+            ],
+            [
+              "of",
+              0.13053177581917091
+            ],
+            [
+              "and",
+              0.10434782608695652
+            ]
+          ],
+          "Deep learning": [
+            [
+              "the",
+              0.19574916712351872
+            ],
+            [
+              "of",
+              0.13053177581917091
+            ],
+            [
+              "and",
+              0.10434782608695652
+            ]
+          ]
+        }
+      },
+      {
+        "llm_weight": 0.8,
+        "ngram_weight": 0.19999999999999996,
+        "predictions": {
+          "The capital of": [
+            [
+              "the",
+              0.17396265895829063
+            ],
+            [
+              "of",
+              0.11599164446553703
+            ],
+            [
+              "and",
+              0.0927536231884058
+            ]
+          ],
+          "Machine learning": [
+            [
+              "models",
+              0.19418040737148395
+            ],
+            [
+              "the",
+              0.1741070298992114
+            ],
+            [
+              "of",
+              0.1161360154064578
+            ]
+          ],
+          "Deep learning": [
+            [
+              "requires",
+              0.19418040737148395
+            ],
+            [
+              "the",
+              0.1741070298992114
+            ],
+            [
+              "of",
+              0.1161360154064578
+            ]
+          ]
+        }
+      },
+      {
+        "llm_weight": 0.5,
+        "ngram_weight": 0.5,
+        "predictions": {
+          "The capital of": [
+            [
+              "japan",
+              0.12416273877449764
+            ],
+            [
+              "france",
+              0.12416273877449764
+            ],
+            [
+              "england",
+              0.12416273877449764
+            ]
+          ],
+          "Machine learning": [
+            [
+              "models",
+              0.48545101842870997
+            ],
+            [
+              "the",
+              0.10918061822628936
+            ],
+            [
+              "of",
+              0.07294873416831836
+            ]
+          ],
+          "Deep learning": [
+            [
+              "requires",
+              0.48545101842870997
+            ],
+            [
+              "the",
+              0.10918061822628936
+            ],
+            [
+              "of",
+              0.07294873416831836
+            ]
+          ]
+        }
+      },
+      {
+        "llm_weight": 0.2,
+        "ngram_weight": 0.8,
+        "predictions": {
+          "The capital of": [
+            [
+              "japan",
+              0.19866038203919623
+            ],
+            [
+              "france",
+              0.19866038203919623
+            ],
+            [
+              "england",
+              0.19866038203919623
+            ]
+          ],
+          "Machine learning": [
+            [
+              "models",
+              0.776721629485936
+            ],
+            [
+              "the",
+              0.04425420655336735
+            ],
+            [
+              "of",
+              0.02976145293017895
+            ]
+          ],
+          "Deep learning": [
+            [
+              "requires",
+              0.776721629485936
+            ],
+            [
+              "the",
+              0.04425420655336735
+            ],
+            [
+              "of",
+              0.02976145293017895
+            ]
+          ]
+        }
+      },
+      {
+        "llm_weight": 0.05,
+        "ngram_weight": 0.95,
+        "predictions": {
+          "The capital of": [
+            [
+              "japan",
+              0.2359092036715455
+            ],
+            [
+              "france",
+              0.2359092036715455
+            ],
+            [
+              "england",
+              0.2359092036715455
+            ]
+          ],
+          "Machine learning": [
+            [
+              "models",
+              0.9223569350145489
+            ],
+            [
+              "the",
+              0.011791000716906338
+            ],
+            [
+              "of",
+              0.008167812311109237
+            ]
+          ],
+          "Deep learning": [
+            [
+              "requires",
+              0.9223569350145489
+            ],
+            [
+              "the",
+              0.011791000716906338
+            ],
+            [
+              "of",
+              0.008167812311109237
+            ]
+          ]
+        }
+      }
+    ],
+    "incremental_suffix": [
+      {
+        "description": "Partial: 'brown' -> Completion: 'fox'",
+        "extensions": [
+          "quick brown fox",
+          "the quick brown fox"
+        ]
+      },
+      {
+        "description": "Partial: 'the' -> Completion: 'dog'",
+        "extensions": [
+          "lazy dog",
+          "the lazy dog"
+        ]
+      },
+      {
+        "description": "Partial: 'brown' -> Completion: 'bear'",
+        "extensions": [
+          "slow brown bear",
+          "the slow brown bear"
+        ]
+      }
+    ],
+    "specialized_models": [
+      {
+        "context": "einstein developed",
+        "description": "Scientific context",
+        "wiki_top": [
+          [
+            "the",
+            0.9569789674952197
+          ],
+          [
+            "time",
+            0.0009560229445506692
+          ]
+        ],
+        "news_top": [
+          [
+            "summit",
+            0.05
+          ],
+          [
+            "climate",
+            0.05
+          ]
+        ],
+        "user_top": [
+          [
+            "algorithm",
+            0.047619047619047616
+          ],
+          [
+            "implement",
+            0.047619047619047616
+          ]
+        ],
+        "ensemble_top": [
+          [
+            "the",
+            0.15812878275995915
+          ],
+          [
+            "relativity",
+            0.1579329777598873
+          ],
+          [
+            "physics",
+            0.11842105263157894
+          ]
+        ]
+      },
+      {
+        "context": "stock markets",
+        "description": "News context",
+        "wiki_top": [
+          [
+            "time",
+            0.021739130434782608
+          ],
+          [
+            "theory",
+            0.021739130434782608
+          ]
+        ],
+        "news_top": [
+          [
+            "reached",
+            0.9813725490196077
+          ],
+          [
+            "summit",
+            0.000980392156862745
+          ]
+        ],
+        "user_top": [
+          [
+            "algorithm",
+            0.047619047619047616
+          ],
+          [
+            "implement",
+            0.047619047619047616
+          ]
+        ],
+        "ensemble_top": [
+          [
+            "the",
+            0.1979503105590062
+          ],
+          [
+            "of",
+            0.13130434782608696
+          ],
+          [
+            "and",
+            0.10521739130434782
+          ]
+        ]
+      },
+      {
+        "context": "the code",
+        "description": "Programming context",
+        "wiki_top": [
+          [
+            "time",
+            0.021739130434782608
+          ],
+          [
+            "theory",
+            0.021739130434782608
+          ]
+        ],
+        "news_top": [
+          [
+            "summit",
+            0.05
+          ],
+          [
+            "climate",
+            0.05
+          ]
+        ],
+        "user_top": [
+          [
+            "should",
+            0.980411361410382
+          ],
+          [
+            "algorithm",
+            0.0009794319294809011
+          ]
+        ],
+        "ensemble_top": [
+          [
+            "the",
+            0.1965511220883192
+          ],
+          [
+            "of",
+            0.13130434782608696
+          ],
+          [
+            "and",
+            0.10521739130434782
+          ]
+        ]
+      },
+      {
+        "context": "theory of",
+        "description": "Mixed context",
+        "wiki_top": [
+          [
+            "relativity",
+            0.49456253089471075
+          ],
+          [
+            "relativity.",
+            0.2474048442906574
+          ]
+        ],
+        "news_top": [
+          [
+            "summit",
+            0.05
+          ],
+          [
+            "climate",
+            0.05
+          ]
+        ],
+        "user_top": [
+          [
+            "algorithm",
+            0.047619047619047616
+          ],
+          [
+            "implement",
+            0.047619047619047616
+          ]
+        ],
+        "ensemble_top": [
+          [
+            "the",
+            0.19709063164907903
+          ],
+          [
+            "of",
+            0.1304446689161598
+          ],
+          [
+            "and",
+            0.10435771239442068
+          ]
+        ]
+      }
+    ],
+    "perplexity_comparison": [
+      {
+        "config": "Pure LLM",
+        "llm_weight": 1.0,
+        "ngram_weight": 0.0,
+        "perplexity": 286590.3464680614,
+        "total_tokens": 14
+      },
+      {
+        "config": "95% LLM + 5% N-gram",
+        "llm_weight": 0.95,
+        "ngram_weight": 0.050000000000000044,
+        "perplexity": 87046.47778750656,
+        "total_tokens": 14
+      },
+      {
+        "config": "90% LLM + 10% N-gram",
+        "llm_weight": 0.9,
+        "ngram_weight": 0.09999999999999998,
+        "perplexity": 84150.12290007103,
+        "total_tokens": 14
+      },
+      {
+        "config": "80% LLM + 20% N-gram",
+        "llm_weight": 0.8,
+        "ngram_weight": 0.19999999999999996,
+        "perplexity": 82778.7576088871,
+        "total_tokens": 14
+      },
+      {
+        "config": "50% LLM + 50% N-gram",
+        "llm_weight": 0.5,
+        "ngram_weight": 0.5,
+        "perplexity": 87194.16553077998,
+        "total_tokens": 14
+      },
+      {
+        "config": "Pure N-gram",
+        "llm_weight": 0.0,
+        "ngram_weight": 1.0,
+        "perplexity": 115836.24684813022,
+        "total_tokens": 14
+      }
+    ],
+    "context_length": [
+      {
+        "context_length": 1,
+        "context": "the",
+        "target": "large",
+        "target_prob": 0.0038461538461538464,
+        "top_prediction": "the",
+        "top_prob": 0.15873745819397989,
+        "correct": false
+      },
+      {
+        "context_length": 2,
+        "context": "the large",
+        "target": "black",
+        "target_prob": 0.04985048592075755,
+        "top_prediction": "the",
+        "top_prob": 0.20653419863703826,
+        "correct": false
+      },
+      {
+        "context_length": 3,
+        "context": "the large black",
+        "target": "cat",
+        "target_prob": 0.04985048592075755,
+        "top_prediction": "the",
+        "top_prob": 0.20653419863703826,
+        "correct": false
+      },
+      {
+        "context_length": 4,
+        "context": "the large black cat",
+        "target": "sat",
+        "target_prob": 0.04988031119090366,
+        "top_prediction": "the",
+        "top_prob": 0.20653171319785943,
+        "correct": false
+      },
+      {
+        "context_length": 5,
+        "context": "the large black cat sat",
+        "target": "very",
+        "target_prob": 0.03990624376620787,
+        "top_prediction": "the",
+        "top_prob": 0.20653171319785943,
+        "correct": false
+      },
+      {
+        "context_length": 6,
+        "context": "the large black cat sat very",
+        "target": "quietly",
+        "target_prob": 0.04985048592075755,
+        "top_prediction": "the",
+        "top_prob": 0.20653419863703826,
+        "correct": false
+      },
+      {
+        "context_length": 7,
+        "context": "the large black cat sat very quietly",
+        "target": "on",
+        "target_prob": 0.049800862927314976,
+        "top_prediction": "the",
+        "top_prob": 0.20653833388649182,
+        "correct": false
+      },
+      {
+        "context_length": 8,
+        "context": "the large black cat sat very quietly on",
+        "target": "the",
+        "target_prob": 0.2563226020577497,
+        "top_prediction": "the",
+        "top_prob": 0.2563226020577497,
+        "correct": true
+      },
+      {
+        "context_length": 9,
+        "context": "the large black cat sat very quietly on the",
+        "target": "soft",
+        "target_prob": 0.033206106870229006,
+        "top_prediction": "the",
+        "top_prob": 0.15490789910388314,
+        "correct": false
+      },
+      {
+        "context_length": 10,
+        "context": "the large black cat sat very quietly on the soft",
+        "target": "blue",
+        "target_prob": 0.02486338797814208,
+        "top_prediction": "the",
+        "top_prob": 0.20654657767986345,
+        "correct": false
+      },
+      {
+        "context_length": 11,
+        "context": "the large black cat sat very quietly on the soft blue",
+        "target": "mat",
+        "target_prob": 0.04940769990128332,
+        "top_prediction": "the",
+        "top_prob": 0.20657109747199445,
+        "correct": false
+      }
+    ]
+  }
+}

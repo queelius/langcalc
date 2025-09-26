@@ -1,0 +1,1 @@
+"""Data structures for efficient n-gram operations."""

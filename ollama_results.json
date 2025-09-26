@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Bigram (n=2)",
+    "perplexity": 25414.12299203045,
+    "accuracy": 0.2,
+    "time": 0.0003604888916015625
+  },
+  {
+    "name": "Trigram (n=3)",
+    "perplexity": 33906.493405421556,
+    "accuracy": 0.8,
+    "time": 0.0002079010009765625
+  },
+  {
+    "name": "Ollama (Mistral 7B)",
+    "perplexity": 1917366612.948335,
+    "accuracy": 0.0,
+    "time": 26.314866065979004
+  },
+  {
+    "name": "0.5*Bigram + 0.5*Ollama",
+    "perplexity": 38933.58142498931,
+    "accuracy": 0.0,
+    "time": 8.121668338775635
+  },
+  {
+    "name": "0.3*Trigram + 0.7*Ollama",
+    "perplexity": 71130.26277637904,
+    "accuracy": 0.0,
+    "time": 11.78695273399353
+  },
+  {
+    "name": "0.7*Trigram + 0.3*Ollama",
+    "perplexity": 42228.64638860922,
+    "accuracy": 0.8,
+    "time": 9.092199087142944
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Bigram (n=2)",
+    "perplexity": 2955209235.202899,
+    "factual_accuracy": 0.75,
+    "generation_time_ms": 0.0015950202941894531
+  },
+  {
+    "name": "Trigram (n=3)",
+    "perplexity": 2955209235.202899,
+    "factual_accuracy": 1.0,
+    "generation_time_ms": 0.0006198883056640625
+  },
+  {
+    "name": "Mock LLM",
+    "perplexity": 2864181023.3776555,
+    "factual_accuracy": 0.25,
+    "generation_time_ms": 0.0013709068298339844
+  },
+  {
+    "name": "0.5*Bigram + 0.5*LLM",
+    "perplexity": 2903363545.6500654,
+    "factual_accuracy": 0.75,
+    "generation_time_ms": 0.005695819854736328
+  },
+  {
+    "name": "0.3*Trigram + 0.7*LLM",
+    "perplexity": 2886524743.8295126,
+    "factual_accuracy": 1.0,
+    "generation_time_ms": 0.0041675567626953125
+  },
+  {
+    "name": "0.7*Trigram + 0.3*LLM",
+    "perplexity": 2922167019.064727,
+    "factual_accuracy": 1.0,
+    "generation_time_ms": 0.004241466522216797
+  }
+]
