@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository explores autoregressive models using inductive biases and projections to enhance out-of-distribution (OOD) generalization. It implements infini-gram models that leverage suffix arrays for efficient arbitrary input length management.
+**LangCalc** is a calculus for compositional language modeling. This repository provides an algebraic framework for composing language models through mathematical operators. It features infinigram models (suffix arrays) for efficient n-gram modeling of arbitrary lengths, and explores how algebraic composition reveals inductive biases in language models.
 
 ## Key Dependencies
 

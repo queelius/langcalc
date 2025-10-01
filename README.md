@@ -1,6 +1,6 @@
-# Algebraic Language Model Composition
+# LangCalc: A Calculus for Language Models
 
-An elegant mathematical framework for composing language models through algebraic operations, featuring efficient suffix array-based grounding and lightweight model mixing.
+An elegant mathematical framework for composing language models through algebraic operations, featuring efficient suffix array-based grounding (infinigrams) and lightweight model mixing.
 
 ## 🎯 Overview
 
@@ -91,8 +91,8 @@ jupyter notebook notebooks/lightweight_grounding_demo.ipynb
 ## 📖 Citation
 
 ```bibtex
-@article{algebraic-lm-2025,
-  title={An Algebraic Framework for Language Model Composition with Efficient Suffix-Based Grounding},
+@article{langcalc-2025,
+  title={LangCalc: A Calculus for Compositional Language Modeling with Infinigram Grounding},
   year={2025}
 }
 ```
@@ -106,4 +106,4 @@ jupyter notebook notebooks/lightweight_grounding_demo.ipynb
 
 ---
 
-Built with mathematical elegance and engineering pragmatism.
+**LangCalc** - A calculus for language models. Built with mathematical elegance and engineering pragmatism.

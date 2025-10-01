@@ -1,5 +1,5 @@
 """
-Setup script for ngram_projections package.
+Setup script for langcalc package.
 """
 
 from setuptools import setup, find_packages
@@ -8,13 +8,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ngram-projections",
-    version="0.1.0",
-    author="NGram Projections Contributors",
-    description="An elegant algebraic API for composing language models with n-gram projections",
+    name="langcalc",
+    version="0.3.0",
+    author="LangCalc Contributors",
+    description="LangCalc: A Calculus for Compositional Language Modeling",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ngram-projections",
+    url="https://github.com/queelius/langcalc",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

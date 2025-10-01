@@ -2,7 +2,7 @@
 
 ## Overview
 
-Comprehensive pytest-based test suite for the algebraic language model composition framework, following TDD best practices.
+Comprehensive pytest-based test suite for **LangCalc** (Language Calculus), following TDD best practices. Tests cover the algebraic framework, infinigrams, and model composition.
 
 ## Structure
 

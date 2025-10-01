@@ -1,6 +1,6 @@
-# NGram Projections: Algebraic Language Model Composition
+# LangCalc: A Calculus for Language Models
 
-An elegant Python package providing an algebraic API for composing language models with n-gram projection models. This package enables sophisticated model composition through mathematical operators, following the Unix philosophy of composable, single-purpose tools.
+An elegant Python package providing an algebraic API for composing language models using mathematical operators. LangCalc enables sophisticated model composition including infinigrams, n-grams, and neural models, following the Unix philosophy of composable, single-purpose tools.
 
 ## Key Features
 
