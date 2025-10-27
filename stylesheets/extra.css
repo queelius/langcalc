@@ -1,0 +1,67 @@
+/* Custom styles for LangCalc documentation */
+
+/* Make code blocks slightly larger */
+.highlight code {
+  font-size: 0.9em;
+}
+
+/* Improve math rendering spacing */
+.arithmatex {
+  margin: 0.5em 0;
+}
+
+/* Style for inline code */
+code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+/* Better spacing for admonitions */
+.admonition {
+  margin: 1.5em 0;
+}
+
+/* Improve table readability */
+table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 0.6em 1em;
+}
+
+/* Highlight important sections */
+.important-note {
+  background-color: rgba(var(--md-primary-fg-color--dark), 0.1);
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Style for mathematical definitions */
+.definition {
+  border-left: 4px solid #2196f3;
+  background-color: rgba(33, 150, 243, 0.05);
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Style for theorems */
+.theorem {
+  border-left: 4px solid #4caf50;
+  background-color: rgba(76, 175, 80, 0.05);
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Style for examples */
+.example {
+  border-left: 4px solid #ff9800;
+  background-color: rgba(255, 152, 0, 0.05);
+  padding: 1em;
+  margin: 1em 0;
+}
