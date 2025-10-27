@@ -13,17 +13,14 @@ from dataclasses import dataclass, field, asdict
 from collections import defaultdict
 import statistics
 from pathlib import Path
-import sys
-sys.path.append('.')
-
-# Import our algebraic framework
-from ngram_projections.models.base import LanguageModel
-from ngram_projections.models.ngram import NGramModel
-from ngram_projections.models.mixture import MixtureModel
-from ngram_projections.projections.recency import RecencyProjection
-from ngram_projections.projections.edit_distance import EditDistanceProjection
-from ngram_projections.projections.semantic import SemanticProjection
-# from ngram_projections.projections.attention import AttentionProjection
+# Import our algebraic framework using langcalc package
+from langcalc.models.base import LanguageModel
+from langcalc.models.ngram import NGramModel
+from langcalc.models.mixture import MixtureModel
+from langcalc.projections.recency import RecencyProjection
+from langcalc.projections.edit_distance import EditDistanceProjection
+from langcalc.projections.semantic import SemanticProjection
+# from langcalc.projections.attention import AttentionProjection
 
 
 @dataclass

@@ -11,10 +11,8 @@ from unittest.mock import Mock, MagicMock, patch
 import sys
 import os
 
-# Add src to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
-
-from model_algebra import (
+# Use new langcalc package imports
+from langcalc.algebra import (
     AlgebraicModel, ContextTransform,
     FunctionModel, FilteredModel, TopKModel, ThresholdModel,
     TemperatureModel, demonstrate_algebra
@@ -26,10 +24,13 @@ class MockAlgebraicModel(AlgebraicModel):
 
     def __init__(self, name="mock", predictions=None):
         self.name = name
-        self.predictions = predictions or {
-            "the": 0.3, "a": 0.2, "and": 0.15,
-            "of": 0.1, "to": 0.08, "in": 0.05
-        }
+        if predictions is None:
+            self.predictions = {
+                "the": 0.3, "a": 0.2, "and": 0.15,
+                "of": 0.1, "to": 0.08, "in": 0.05
+            }
+        else:
+            self.predictions = predictions
 
     def predict(self, context: List[str], top_k: int = 50) -> Dict[str, float]:
         """Return mock predictions."""

@@ -10,17 +10,19 @@ mathematical properties, and real-world applications.
 from typing import Dict, List
 import numpy as np
 
-from model_algebra import (
+from langcalc.algebra import (
     AlgebraicModel, AlgebraicModelWrapper,
     LongestSuffixTransform, MaxKWordsTransform, RecencyWeightTransform,
     ModelBuilder
 )
-from algebra_integration import (
-    SuffixArrayModel, AdaptiveSuffixModel,
-    RecencyBiasedModel, CacheModel, FocusTransform
-)
-from suffix_array_demo import SuffixArray
-from lightweight_grounding import MockLLM, WikipediaNGram, LightweightNGramModel
+from langcalc.data.suffix_array import SuffixArray
+from langcalc.grounding import MockLLM, WikipediaNGram, LightweightNGramModel
+
+# Note: Some components from algebra_integration may need to be refactored
+# from algebra_integration import (
+#     SuffixArrayModel, AdaptiveSuffixModel,
+#     RecencyBiasedModel, CacheModel, FocusTransform
+# )
 
 
 # ============================================================================

@@ -9,9 +9,9 @@ import pytest
 import numpy as np
 from typing import List
 
-from ngram_projections.projections.recency import RecencyProjection
-from ngram_projections.projections.semantic import SemanticProjection
-from ngram_projections.models.ngram import NGramModel
+from langcalc.projections.recency import RecencyProjection
+from langcalc.projections.semantic import SemanticProjection
+from langcalc.models.ngram import NGramModel
 
 
 class TestRecencyProjection:
@@ -230,7 +230,7 @@ class TestModelProjectionIntegration:
 
     def test_projection_preserves_model_interface(self, ngram_model, recency_projection):
         """Test that projected models maintain the LanguageModel interface."""
-        from ngram_projections.models.base import LanguageModel
+        from langcalc.models.base import LanguageModel
 
         projected_model = ngram_model @ recency_projection
 

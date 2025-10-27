@@ -9,21 +9,18 @@ import sys
 import numpy as np
 from typing import List
 
-# Add parent directory to path for imports
-sys.path.insert(0, '..')
+# Import our algebraic language model framework using langcalc package
+from langcalc.models.base import LanguageModel
+from langcalc.models.ngram import NGramModel
+from langcalc.models.llm import MockLLM, HuggingFaceModel
+from langcalc.models.mixture import MixtureModel
 
-# Import our algebraic language model framework
-from ngram_projections.models.base import LanguageModel
-from ngram_projections.models.ngram import NGramModel
-from ngram_projections.models.llm import MockLLM, HuggingFaceModel
-from ngram_projections.models.mixture import MixtureModel
+from langcalc.projections.base import IdentityProjection
+from langcalc.projections.recency import RecencyProjection
+from langcalc.projections.edit_distance import EditDistanceProjection
+from langcalc.projections.semantic import SemanticProjection, AttentionProjection
 
-from ngram_projections.projections.base import IdentityProjection
-from ngram_projections.projections.recency import RecencyProjection
-from ngram_projections.projections.edit_distance import EditDistanceProjection
-from ngram_projections.projections.semantic import SemanticProjection, AttentionProjection
-
-from ngram_projections.algebra.combinators import (
+from langcalc.algebra.combinators import (
     compose, ensemble, cascade, choose, adapt, memoize
 )
 

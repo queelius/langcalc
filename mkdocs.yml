@@ -1,0 +1,194 @@
+site_name: LangCalc Documentation
+site_description: A Calculus for Language Models - Mathematical framework for compositional language modeling
+site_author: LangCalc Team
+site_url: https://github.com/queelius/langcalc
+
+repo_name: queelius/langcalc
+repo_url: https://github.com/queelius/langcalc
+edit_uri: edit/master/docs/
+
+copyright: Copyright &copy; 2025 LangCalc Project
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant      # Fast page loading
+    - navigation.tracking     # Update URL with current heading
+    - navigation.tabs         # Top-level navigation tabs
+    - navigation.tabs.sticky  # Keep tabs visible when scrolling
+    - navigation.sections     # Show sections in sidebar
+    - navigation.expand       # Expand all sections by default
+    - navigation.indexes      # Section index pages
+    - navigation.top          # Back to top button
+    - search.suggest          # Search suggestions
+    - search.highlight        # Highlight search terms
+    - search.share            # Share search results
+    - content.code.copy       # Copy code button
+    - content.code.annotate   # Code annotations
+    - toc.follow              # TOC follows scroll
+    - toc.integrate           # Integrate TOC into sidebar
+
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      lang: en
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  # Python Markdown extensions
+  - abbr                      # Abbreviations
+  - admonition                # Admonition blocks (note, warning, etc.)
+  - attr_list                 # Attribute lists
+  - def_list                  # Definition lists
+  - footnotes                 # Footnotes
+  - meta                      # Meta-data
+  - md_in_html                # Markdown in HTML
+  - tables                    # Tables
+  - toc:
+      permalink: true         # Add permanent links to headings
+      toc_depth: 3
+
+  # PyMdown Extensions
+  - pymdownx.arithmatex:      # Math rendering with MathJax
+      generic: true
+  - pymdownx.betterem:        # Better emphasis
+      smart_enable: all
+  - pymdownx.caret            # Insert/superscript
+  - pymdownx.mark             # Highlight
+  - pymdownx.tilde            # Strikethrough/subscript
+  - pymdownx.critic           # Critic markup
+  - pymdownx.details          # Collapsible admonitions
+  - pymdownx.emoji:           # Emoji support
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:       # Code highlighting
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite     # Inline code highlighting
+  - pymdownx.keys             # Keyboard keys
+  - pymdownx.magiclink        # Auto-link URLs
+  - pymdownx.smartsymbols     # Smart symbols
+  - pymdownx.snippets         # Include external files
+  - pymdownx.superfences:     # Better code blocks
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:          # Tabbed content
+      alternate_style: true
+  - pymdownx.tasklist:        # Task lists
+      custom_checkbox: true
+
+extra_javascript:
+  # MathJax configuration for LaTeX rendering
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/queelius/langcalc
+      name: GitHub Repository
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - getting-started/index.md
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quickstart.md
+      - Core Concepts: getting-started/concepts.md
+
+  - Projection System:
+      - projection-system/index.md
+      - Overview: projection-system/overview.md
+      - Mathematical Formalism: projection-system/formalism.md
+      - Canonical Augmentations: projection-system/augmentations.md
+      - Ordering Principles: projection-system/ordering.md
+      - Reference Implementation: projection-system/implementation.md
+
+  - User Guide:
+      - user-guide/index.md
+      - Language Models: user-guide/models.md
+      - Algebraic Operations: user-guide/algebra.md
+      - Context Transformations: user-guide/transformations.md
+      - Examples & Patterns: user-guide/examples.md
+      - Best Practices: user-guide/best-practices.md
+
+  - API Reference:
+      - api/index.md
+      - Core Module: api/core.md
+      - Models: api/models.md
+      - Projections: api/projections.md
+      - Augmentations: api/augmentations.md
+      - Algebra: api/algebra.md
+
+  - Advanced Topics:
+      - advanced/index.md
+      - Suffix Arrays: advanced/suffix-arrays.md
+      - Lightweight Grounding: advanced/grounding.md
+      - Performance Optimization: advanced/performance.md
+      - Extending LangCalc: advanced/extending.md
+
+  - Development:
+      - development/index.md
+      - Contributing: development/contributing.md
+      - Testing: development/testing.md
+      - Code Style: development/style.md
+      - Release Process: development/releases.md
+
+  - About:
+      - about/index.md
+      - License: about/license.md
+      - Changelog: about/changelog.md
+      - Academic Paper: about/paper.md
+      - Citation: about/citation.md

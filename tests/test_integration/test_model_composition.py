@@ -9,11 +9,11 @@ import pytest
 import numpy as np
 from typing import List, Dict
 
-from ngram_projections.models.base import LanguageModel
-from ngram_projections.models.ngram import NGramModel
-from ngram_projections.models.llm import MockLLM
-from ngram_projections.projections.recency import RecencyProjection
-from ngram_projections.projections.semantic import SemanticProjection
+from langcalc.models.base import LanguageModel
+from langcalc.models.ngram import NGramModel
+from langcalc.models.llm import MockLLM
+from langcalc.projections.recency import RecencyProjection
+from langcalc.projections.semantic import SemanticProjection
 
 
 class TestBasicCompositionWorkflows:

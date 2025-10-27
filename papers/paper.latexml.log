@@ -1,0 +1,151 @@
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/TeX.pool.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/eTeX.pool.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/pdfTeX.pool.ltxml... 0.00 sec) 0.08 sec)
+latexmlc (LaTeXML version 0.8.8)
+invoked as [/usr/local/bin/latexmlc /home/spinoza/github/beta/langcalc/papers/paper.tex --dest /tmp/tmphkzztbvs/html/index.html --timeout=600 --format=html5]
+processing started Tue Oct  7 13:29:14 2025
+(Digesting TeX paper...
+(Processing content /home/spinoza/github/beta/langcalc/papers/paper.tex...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/LaTeX.pool.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/textcomp.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu... 0.01 sec) 0.53 sec) 0.66 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/article.cls.ltxml... 0.01 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/amsmath.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/amsbsy.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/amsgen.sty.ltxml... 0.00 sec) 0.00 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/amstext.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/amsopn.sty.ltxml... 0.00 sec) 0.03 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/amssymb.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/amsfonts.sty.ltxml... 0.00 sec) 0.01 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/amsthm.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/algorithm.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty...
+Info:misdefined:utf-8 input isn't valid under encoding utf-8
+	at algorithm.sty; line 11 col 0 - line 11 col 0
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/float.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/ifthen.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty... 0.01 sec) 0.01 sec) 0.03 sec) 0.03 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/algorithmic.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty...
+Info:misdefined:utf-8 input isn't valid under encoding utf-8
+	at algorithmic.sty; line 11 col 0 - line 11 col 0
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/keyval.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty... 0.01 sec) 0.01 sec) 0.04 sec) 0.04 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/graphicx.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/graphics.sty.ltxml... 0.00 sec) 0.01 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/hyperref.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/ltxcmds.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty... 0.05 sec) 0.05 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/kvsetkeys.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty... 0.04 sec) 0.04 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/kvdefinekeys.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty... 0.01 sec) 0.02 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/kvoptions.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty... 0.08 sec) 0.08 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/nameref.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/refcount.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/infwarerr.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty... 0.03 sec) 0.03 sec) 0.06 sec) 0.06 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/gettitlestring.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty... 0.18 sec) 0.19 sec) 0.26 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/url.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/bitset.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/intcalc.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty... 0.03 sec) 0.03 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/bigintcalc.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/pdftexcmds.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/iftex.sty.ltxml... 0.00 sec) 0.00 sec) 0.09 sec) 0.09 sec) 0.22 sec) 0.22 sec) 0.70 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/natbib.sty.ltxml... 0.01 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/booktabs.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/subcaption.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/caption.sty.ltxml... 0.00 sec) 0.01 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/listings.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg... 0.01 sec) 0.05 sec)
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/xcolor.sty.ltxml...
+(Loading /usr/local/share/perl/5.38.2/LaTeXML/Package/color.sty.ltxml... 0.01 sec) 0.03 sec)
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty... 0.55 sec) 9.52 sec) 9.54 sec)
+(Building...
+(Loading compiled schema /usr/local/share/perl/5.38.2/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.01 sec) 3.48 sec)
+(Rewriting... 0.06 sec)
+(Math Parsing 204 formulae ......
+Warning:not_parsed:ADDOP.METARELOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at paper.tex; line 98 col 0 - line 100 col 14
+	In "\begin{equation}\oplus:\mathcal{M}\times\mathcal{M}\rightarrow\mathcal{M}\end{equation}"
+	⊕[[ADDOP]] :[[METARELOP]]
+	        > M[[UNKNOWN]] ×[[MULOP]] M[[UNKNOWN]] →[[ARROW]] M[[UNKNOWN]]
+Warning:not_parsed:CLOSE.RELOP.UNKNOWN>OPEN MathParser failed to match rule 'Anything'
+	at paper.tex; line 239 col 0 - line 241 col 14
+	In "\begin{equation}M(c)=P(\cdot|c)\in\mathcal{D}\end{equation}"
+	M[[UNKNOWN]] ([[OPEN]] c[[UNKNOWN]] )[[CLOSE]] =[[RELOP]] P[[UNKNOWN]]
+	        > ([[OPEN]] ⋅[[MULOP]] |[[VERTBAR]] c[[UNKNOWN]] )[[CLOSE]] ∈[[RELOP]] D[[UNKNOWN]]
+Warning:not_parsed:>OPEN MathParser failed to match rule 'Anything'
+	at paper.tex; line 338 col 0 - line 340 col 14
+	In "\begin{equation}(M**\tau)(c)=\text{normalize}(M(c)^{1/\tau})\end{equation}"
+	> ([[OPEN]] M[[UNKNOWN]] ∗[[MULOP]] ∗[[MULOP]] τ[[UNKNOWN]] )[[CLOSE]] ([[OPEN]] c[[UNKNOWN]] )[[CLOSE]] =[[RELOP]] \text{normalize}[[UNKNOWN]] ([[OPEN]] M[[UNKNOWN]] ([[OPEN]] c[[UNKNOWN]] )[[CLOSE]] ^{1/\tau}[[POSTSUPERSCRIPT]] )[[CLOSE]]
+Warning:not_parsed:RELOP.UNKNOWN.CLOSE>OPEN MathParser failed to match rule 'Anything'
+	at paper.tex; line 374 col 0 - line 376 col 14
+	In "\begin{equation}(\sim M)(c)=\text{normalize}(1-M(c))\end{equation}"
+	([[OPEN]] ∼[[RELOP]] M[[UNKNOWN]] )[[CLOSE]]
+	        > ([[OPEN]] c[[UNKNOWN]] )[[CLOSE]] =[[RELOP]] \text{normalize}[[UNKNOWN]] ([[OPEN]] 1[[NUMBER]] -[[ADDOP]] M[[UNKNOWN]] ([[OPEN]] c[[UNKNOWN]] )[[CLOSE]] )[[CLOSE]]
+Warning:not_parsed:ATOM.ARROW.UNKNOWN>OPEN MathParser failed to match rule 'Anything'
+	at paper.tex; line 442 col 13 - line 442 col 44
+	In "$\text{suffix}\leftarrow c[-(n-1):]$"
+	\text{suffix}[[UNKNOWN]] ←[[ARROW]] c[[UNKNOWN]]
+	        > [[[OPEN]] -[[ADDOP]] ([[OPEN]] n[[UNKNOWN]] -[[ADDOP]] 1[[NUMBER]] )[[CLOSE]] :[[METARELOP]] ][[CLOSE]]
+Warning:not_parsed:ATOM.ARROW.ATOM>OPEN MathParser failed to match rule 'Anything'
+	at paper.tex; line 477 col 17 - line 477 col 78
+	In "$\text{suffix}\leftarrow\text{suffix}[\text{next\_word\_index}:]$"
+	\text{suffix}[[UNKNOWN]] ←[[ARROW]] \text{suffix}[[UNKNOWN]]
+	        > [[[OPEN]] \text{next\_word\_index}[[UNKNOWN]] :[[METARELOP]] ][[CLOSE]]
+Warning:not_parsed:CLOSE.RELOP.UNKNOWN>OPEN MathParser failed to match rule 'Anything'
+	at paper.tex; line 587 col 0 - line 589 col 14
+	In "\begin{equation}\pi_{\text{recency}}(c)=c[-k:]\end{equation}"
+	π[[UNKNOWN]] _{\text{recency}}[[POSTSUBSCRIPT]] ([[OPEN]] c[[UNKNOWN]] )[[CLOSE]] =[[RELOP]] c[[UNKNOWN]]
+	        > [[[OPEN]] -[[ADDOP]] k[[UNKNOWN]] :[[METARELOP]] ][[CLOSE]]
+Warning:not_parsed:UNKNOWN.ARROW.UNKNOWN>OPEN MathParser failed to match rule 'Anything'
+	at paper.tex; line 844 col 15 - line 844 col 38
+	In "$s\leftarrow c[-(n-1):]$"
+	s[[UNKNOWN]] ←[[ARROW]] c[[UNKNOWN]]
+	        > [[[OPEN]] -[[ADDOP]] ([[OPEN]] n[[UNKNOWN]] -[[ADDOP]] 1[[NUMBER]] )[[CLOSE]] :[[METARELOP]] ][[CLOSE]]
+ 1.78 sec)
+Math parsing succeeded:
+   ltx:XMWrap: 0/5
+   ltx:XMArg: 371/371
+   ltx:XMath: 196/204
+Symbols assumed as simple identifiers (with # of occurences):
+   '@' (45), 'A{italic}' (2), 'Context{bold}' (2), 'C{caligraphic}' (14), 'Delta' (1), 'D{caligraphic}' (16), 'D{italic}' (4), 'G{italic}' (1), 'I{italic}' (7), 'L{caligraphic}' (1), 'L{italic}' (1), 'M{caligraphic}' (7), 'M{italic}' (227), 'N{italic}' (7), 'O{italic}' (3), 'Pi' (3), 'P{italic}' (9), 'S{italic}' (2), 'T{caligraphic}' (4), 'T{italic}' (11), 'alpha' (34), 'beta' (1), 'c{italic}' (95), 'd{italic}' (6), 'epsilon' (7), 'e{italic}' (4), 'f{italic}' (6), 'i{italic}' (3), 'k{italic}' (2), 'n{italic}' (8), 'phi' (23), 'pi' (75), 'psi' (1), 's{italic}' (3), 'tau' (5), 'theta' (1), 'w{italic}' (4)
+Set MATHPARSER_SPECULATE to speculate on possible notations.
+(Finalizing... 0.50 sec)
+Conversion complete: 8 warnings (See /home/spinoza/github/beta/langcalc/papers/paper.latexml.log)
+(post-processing...
+(Scan index.html processing...
+Scan: DBStatus: 1751/0 objects
+ 0.20 sec)
+(MakeBibliography index.html processing...
+Error:missing_file:references Couldn't find Bibliography 'references'
+	at Post::MakeBibliography[@0x64a6999af720]
+	Searchpaths were /home/spinoza/github/beta/langcalc/papers,/home/spinoza/github/beta/langcalc/papers,/home/spinoza/github/beta/langcalc/papers,.
+	In Post::MakeBibliography[@0x64a6999af720] ->getBibliographies
+Info:expected:references Couldn't find usable Bibliography for 'references'
+	at Post::MakeBibliography[@0x64a6999af720]
+MakeBibliography: using bibliographies references]
+MakeBibliography: 1 bibentries, 0 cited
+Warning:expected:bibkeys Missing bibkeys placeholder
+	In Post::MakeBibliography[@0x64a6999af720] ->getBibEntries
+Scan: DBStatus: 1752/0 objects
+ 0.30 sec)
+(CrossRef index.html processing...
+Warning:expected:ids Missing Entry for citation: placeholder
+	In Post::CrossRef[@0x64a68c0850f0] ->process
+ 0.07 sec)
+(MathML::Presentation index.html 204 to process...
+converted 204 Maths
+ 0.34 sec)
+(XSLT[using LaTeXML-html5.xsl] index.html processing... 0.51 sec)
+(Writer index.html processing... 0.01 sec) 1.43 sec)
+Post-processing complete: 2 warnings; 1 error (See /home/spinoza/github/beta/langcalc/papers/paper.latexml.log)
+processing finished Tue Oct  7 13:29:31 2025
+Status:conversion:2

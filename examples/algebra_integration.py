@@ -11,17 +11,19 @@ import numpy as np
 from typing import Dict, List, Optional, Callable, Tuple
 from collections import defaultdict
 
-# Import our modules
-from model_algebra import (
+# Import our modules using langcalc package
+from langcalc.algebra import (
     AlgebraicModel, AlgebraicModelWrapper, ContextTransform,
     LongestSuffixTransform, MaxKWordsTransform, RecencyWeightTransform,
     ModelBuilder, MixtureModel, create_ensemble, create_grounded_model
 )
-from suffix_array_demo import SuffixArray, NGramSuffixModel
-from lightweight_grounding import (
+from langcalc.data.suffix_array import SuffixArray
+from langcalc.grounding import (
     LightweightNGramModel, WikipediaNGram, NewsNGram,
     UserContextNGram, MockLLM, SimpleCorpusIndex
 )
+
+# Note: NGramSuffixModel may need to be implemented or imported differently
 
 
 # ============================================================================

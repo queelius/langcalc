@@ -10,8 +10,8 @@ import pytest
 import numpy as np
 from typing import List
 
-from ngram_projections.models.ngram import NGramModel
-from ngram_projections.models.base import LanguageModel
+from langcalc.models.ngram import NGramModel
+from langcalc.models.base import LanguageModel
 
 
 class TestNGramModelInitialization:

@@ -10,7 +10,7 @@ import pytest
 import numpy as np
 from typing import List
 
-from ngram_projections.data.suffix_array import SuffixArray
+from langcalc.data.suffix_array import SuffixArray
 
 
 class TestSuffixArrayConstruction:

@@ -12,15 +12,12 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Any
 
-# Add src to path for imports
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root / "src"))
-
-from ngram_projections.models.base import LanguageModel
-from ngram_projections.models.ngram import NGramModel
-from ngram_projections.models.llm import MockLLM
-from ngram_projections.projections.recency import RecencyProjection
-from ngram_projections.projections.semantic import SemanticProjection
+# Use new langcalc package imports
+from langcalc.models.base import LanguageModel
+from langcalc.models.ngram import NGramModel
+from langcalc.models.llm import MockLLM
+from langcalc.projections.recency import RecencyProjection
+from langcalc.projections.semantic import SemanticProjection
 
 
 @pytest.fixture(scope="session")

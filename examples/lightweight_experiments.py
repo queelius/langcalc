@@ -11,8 +11,8 @@ from typing import List, Dict, Tuple
 from collections import defaultdict
 import random
 
-# Import our lightweight grounding system
-from lightweight_grounding import (
+# Import our lightweight grounding system using langcalc package
+from langcalc.grounding import (
     LightweightGroundingSystem,
     LightweightNGramModel,
     IncrementalSuffixExtender,

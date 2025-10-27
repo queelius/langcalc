@@ -6,7 +6,8 @@ Test lightweight grounding with real Ollama LLM.
 import requests
 import json
 import time
-from lightweight_grounding import LightweightGroundingSystem, LightweightNGramModel, LanguageModel
+from langcalc.grounding import LightweightGroundingSystem, LightweightNGramModel
+from langcalc.models.base import LanguageModel
 
 
 class RealOllamaLLM(LanguageModel):
@@ -49,6 +50,22 @@ class RealOllamaLLM(LanguageModel):
         except requests.exceptions.RequestException as e:
             print(f"Connection error: {e}")
             return {'the': 0.5, 'and': 0.5}
+
+    def logprobs(self, tokens, context=None):
+        """Return log probabilities (not implemented for Ollama)."""
+        import numpy as np
+        return np.array([-1.0] * len(tokens))
+
+    def sample(self, context=None, temperature=1.0, max_tokens=5):
+        """Sample from the model (simplified implementation)."""
+        if context is None:
+            context = []
+        probs = self.predict(context)
+        return [list(probs.keys())[0]] * min(max_tokens, 5)
+
+    def score(self, sequence):
+        """Score a sequence (simplified implementation)."""
+        return -len(sequence) * 0.5
 
 
 def test_ollama_grounding():

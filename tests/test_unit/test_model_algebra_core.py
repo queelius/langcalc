@@ -11,10 +11,8 @@ from unittest.mock import Mock, MagicMock
 import sys
 import os
 
-# Add src to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../src'))
-
-from model_algebra import (
+# Use new langcalc package imports
+from langcalc.algebra import (
     ContextTransform, ModelOperator, AlgebraicModel,
     ComposedTransform, ParallelTransform,
     ScalarBiasModel, SumModel, ScaledModel, NormalizedModel,
@@ -105,10 +103,10 @@ class TestContextTransforms:
         assert result == ["one", "two"]
 
     def test_max_k_words_transform(self, simple_context):
-        """Test MaxKWordsTransform keeps first k tokens."""
+        """Test MaxKWordsTransform keeps last k tokens."""
         transform = MaxKWordsTransform(k=2)
         result = transform.transform(simple_context)
-        assert result == ["the", "quick"]
+        assert result == ["fox", "jumps"]
 
     def test_max_k_words_empty(self):
         """Test MaxKWordsTransform with empty context."""

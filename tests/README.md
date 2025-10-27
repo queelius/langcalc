@@ -8,17 +8,20 @@ Comprehensive pytest-based test suite for **LangCalc** (Language Calculus), foll
 
 ```
 tests/
-├── pytest.ini              # Configuration
+├── pytest.ini              # Configuration (80% coverage target)
 ├── conftest.py            # Shared fixtures
-├── test_unit/             # Unit tests (128 tests)
-│   ├── test_algebraic_operations.py  # Core algebra (27 tests)
-│   ├── test_ngram_model.py          # N-gram models (61 tests)
-│   ├── test_projections.py          # Projections (40 tests)
-│   └── test_suffix_array.py         # Suffix arrays (18 tests)
-└── test_integration/      # Integration tests (36 tests)
-    ├── test_lightweight_grounding.py  # Grounding system (17 tests)
-    ├── test_model_composition.py      # Composition workflows (19 tests)
-    └── test_ollama_integration.py     # LLM integration
+├── test_unit/             # Unit tests (228 tests)
+│   ├── test_model_algebra_core.py       # Core algebra (53 tests)
+│   ├── test_model_algebra_additional.py # Extended operations (28 tests)
+│   ├── test_model_algebra_coverage.py   # Coverage tests (17 tests) ⭐NEW
+│   ├── test_algebraic_operations.py     # Algebraic properties (27 tests)
+│   ├── test_ngram_model.py              # N-gram models (36 tests)
+│   ├── test_projections.py              # Projections (40 tests)
+│   └── test_suffix_array.py             # Suffix arrays (33 tests)
+└── test_integration/      # Integration tests (35 tests)
+    ├── test_lightweight_grounding.py     # Grounding system (18 tests)
+    ├── test_model_composition.py         # Composition workflows (19 tests)
+    └── test_ollama_integration.py        # LLM integration
 ```
 
 ## Running Tests
@@ -48,11 +51,12 @@ pytest tests/test_integration/test_lightweight_grounding.py
 
 ## Test Statistics
 
-- **Total Tests**: 165
-- **Unit Tests**: 128
-- **Integration Tests**: 36
-- **Code Coverage**: 49%
-- **Execution Time**: ~7 seconds
+- **Total Tests**: 263 ✅ (All passing)
+- **Unit Tests**: 228
+- **Integration Tests**: 35
+- **Overall Coverage**: 35%
+- **Core Module Coverage**: model_algebra.py at **95%** ⭐
+- **Execution Time**: ~8 seconds
 
 ## Test Categories
 
@@ -113,16 +117,58 @@ pytest tests/test_integration/test_lightweight_grounding.py
 
 ## Coverage Report
 
+### Recent Improvements (October 2025)
+- ✅ **Fixed all 15 failing tests** - 100% pass rate achieved
+- ✅ **model_algebra.py: 89% → 95%** - Added 17 comprehensive tests
+- ✅ **263 tests total** - Up from 165 tests (+98 tests)
+- 📊 **Overall: 35%** - Core modules well-covered, demos excluded
+
+### Current Coverage by Module
+
+**Excellent Coverage (≥90%)**
+```
+Module                          Stmts   Miss  Cover  Status
+------------------------------------------------------------
+model_algebra.py                 550     29    95%   ⭐ Excellent
+ngram_projections/__init__.py      8      0   100%   ✅ Complete
+```
+
+**Good Coverage (70-89%)**
 ```
 Module                          Stmts   Miss  Cover
 ----------------------------------------------------
-src/model_algebra.py              156     82    47%
-src/suffix_array_demo.py          98     17    82%
-src/lightweight_grounding.py     234    127    46%
-src/ngram_projections/           428    211    51%
-----------------------------------------------------
-TOTAL                            938    481    49%
+suffix_array.py                   99     18    82%
+models/ngram.py                  111     33    70%
+models/base.py                   117     37    68%
 ```
+
+**Moderate Coverage (50-69%)**
+```
+Module                          Stmts   Miss  Cover
+----------------------------------------------------
+models/mixture.py                 80     32    60%
+projections/semantic.py           73     33    55%
+```
+
+**Needs Improvement (<50%)**
+```
+Module                          Stmts   Miss  Cover  Priority
+--------------------------------------------------------------
+lightweight_grounding.py         282    177    37%   High
+models/llm.py                    120     69    42%   High
+projections/base.py               91     49    46%   High
+projections/recency.py            44     25    43%   High
+projections/edit_distance.py      75     64    15%   Medium
+```
+
+### Path to 80% Coverage
+
+See `TEST_COVERAGE_SUMMARY.md` and `COVERAGE_ANALYSIS.md` for detailed roadmap:
+- **Estimated effort**: 100-120 additional tests
+- **Time required**: 8-12 hours
+- **Phase 1 priorities**: models/base.py, models/ngram.py edge cases
+- **Phase 2 priorities**: lightweight_grounding.py selected classes
+- **Phase 3 priorities**: projections modules, LLM integration
 
 ## Fixtures (conftest.py)
 

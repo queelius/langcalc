@@ -7,27 +7,29 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="langcalc",
-    version="0.3.0",
-    author="",
-    description="LangCalc: A Calculus for Compositional Language Modeling",
+    version="0.4.0",  # Bumped for major refactor
+    author="LangCalc Contributors",
+    description="LangCalc: A Calculus for Compositional Language Modeling with Infinigrams",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/queelius/langcalc",
-    package_dir={"": "src"},
-    packages=find_packages(where="src"),
+    packages=find_packages(exclude=["tests*", "examples*", "scripts*", "src*"]),
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
     ],
     python_requires=">=3.8",
     install_requires=[
         "numpy>=1.19.0",
         "scipy>=1.5.0",
+        "infinigram>=0.2.0",
     ],
     extras_require={
         "dev": [
